@@ -1,0 +1,22 @@
+{
+  "name": "database",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "dotenv": "^16.1.4",
+    "nodemon": "^2.0.22",
+    "npm-check-updates": "^16.10.12"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.2.3"
+  }
+}
